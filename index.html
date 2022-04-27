@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boid</title>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+    }
+  </style>
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+  <div class="float-container">
+    <div class="float-child">
+      <canvas id="canvas" width="1000" height="800" style="border:1px solid black"></canvas>
+    </div>
+
+    <div class="float-child">
+      <div>
+        <label for="showTree">Show Collision Buckets</label>
+        <input type="checkbox" id="showTree" name="showTree"> 
+      </div>
+      <div>
+        <label for="boidSlider">Amount</label>
+        <input type="range" id="boidSlider" name="boidSlider" min="0" max="3000" value="500">
+        <label id="boidSliderLabel" for="boidSlider"></label>
+      </div>
+    </div>
+  </div>
+
+  <script src="boid.js"></script>
+  <script src="ds/quad.js"></script>
+  <script src="ds/vector.js"></script>
+  <script src="sketch.js"></script>
+</body>
+
+</html>
