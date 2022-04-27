@@ -1,0 +1,15 @@
+.float-container {
+    border: 3px solid #fff;
+    padding: 20px;
+    padding-top: 5px;
+}
+
+.float-child {
+    float: left;
+    padding: 20px;
+    padding-top: 5px;
+}  
+
+.div {
+    margin: 2px;
+}
