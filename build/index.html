@@ -16,28 +16,35 @@
 </head>
 
 <body>
-  <div class="float-container">
-    <div class="float-child">
-      <canvas id="canvas" width="1000" height="800" style="border:1px solid black"></canvas>
-    </div>
+    <div class="float-container">
+      <div class="float-child">
+        <canvas id="canvas" width="1000" height="800" style="border:1px solid black"></canvas>
+      </div>
 
-    <div class="float-child">
-      <div>
-        <label for="showTree">Show Collision Buckets</label>
-        <input type="checkbox" id="showTree" name="showTree"> 
-      </div>
-      <div>
-        <label for="boidSlider">Amount</label>
-        <input type="range" id="boidSlider" name="boidSlider" min="0" max="3000" value="500">
-        <label id="boidSliderLabel" for="boidSlider"></label>
+      <div class="float-child">
+        <div>
+          <label for="showTree">Show Collision Buckets</label>
+          <input type="checkbox" id="showTree" name="showTree"> 
+        </div>
+        <div>
+          <label for="boidSlider">Amount</label>
+          <input type="range" id="boidSlider" name="boidSlider" min="0" max="3000" value="500">
+          <label id="boidSliderLabel" for="boidSlider"></label>
+        </div>
       </div>
     </div>
-  </div>
 
   <script src="boid.js"></script>
   <script src="ds/quad.js"></script>
   <script src="ds/vector.js"></script>
   <script src="sketch.js"></script>
+
+
+  <footer>
+      <a href="https://gitlab.com/blue-star/Steve" style="float: right;">
+          <img src="./images/banner copy.png" width="237px" height="154px">
+      </a>
+  </footer>
 </body>
 
 </html>
