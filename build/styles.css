@@ -11,6 +11,7 @@ body{
 footer{
   margin-top: auto;
   height: 160px;
+  width: 100%;
 }
 
 .float-container {
