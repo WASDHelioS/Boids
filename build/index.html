@@ -3,15 +3,9 @@
  
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Boid</title>
-  <style>
-    body {
-      padding: 0;
-      margin: 0;
-    }
-  </style>
   <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 </head>
 
@@ -35,17 +29,23 @@
       </div>
     </div>
 
-  <script src="boid.js"></script>
-  <script src="ds/quad.js"></script>
-  <script src="ds/vector.js"></script>
-  <script src="sketch.js"></script>
+    <script src="boid.js"></script>
+    <script src="ds/quad.js"></script>
+    <script src="ds/vector.js"></script>
+    <script src="sketch.js"></script>
 
-</div>
-  <footer>
-      <a href="https://gitlab.com/blue-star/Steve">
-          <img src="./images/banner copy.png" width="237px" height="154px" style="float: right;">
-      </a>
-  </footer>
+    <script>
+      let vh = window.innerHeight * 0.01;
+      document.documentElement.style.setProperty('--vh', `${vh}px`);
+    </script>
+
+  </div>  
+
+
 </body>
-
+<footer>
+  <a href="https://gitlab.com/blue-star/Steve">
+      <img src="./images/banner copy.png" width="237px" height="154px" style="float: right;">
+  </a>
+</footer>
 </html>
