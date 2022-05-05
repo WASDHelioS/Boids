@@ -1,17 +1,26 @@
 body{ height:100vh; margin:0; }
 
-header{ min-height:50px; background:lightcyan; }
-footer{ min-height:160px; background: lightgray; }
-
 body{ 
   display:flex; 
   flex-direction:column; 
+  flex-wrap: nowrap;
+}
+.content-wrapper{
+  margin:0px auto;
 }
 
 footer{
+  margin:auto;
+  padding:0px;
+  background: lightgray;
   margin-top: auto;
+  min-height:160px; 
   height: 160px;
-  width: 100%;
+  min-width: 1200px;
+  width: 1520px;
+  
+  margin-top: 1000px;
+  position:absolute;
 }
 
 .float-container {
